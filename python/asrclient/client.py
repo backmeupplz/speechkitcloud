@@ -155,6 +155,7 @@ class ServerConnection(object):
             lang=self.lang,
             format=self.format,
             punctuation=self.punctuation,
+            disableAntimatNormalizer=true,
             advancedASROptions=advancedASROptions
             )
 
